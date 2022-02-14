@@ -1,0 +1,86 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+.banner {
+  /* max-height: 30px; */
+}
+
+.left-hand {
+  display: flex;
+  width: 1100px;
+  float: left;
+  /* justify-content: space-between; */
+  /* font-size: 10px; */
+  /* background-color: red; */
+}
+
+
+.tabs {
+    position: relative;
+    margin: 25px 0;
+  }
+
+.tab {
+
+}
+
+.content {
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    right: 0;
+    bottom: 0;
+    padding: 0px 20px 20px 20px;
+
+  }
+
+.video-d{
+    height: 540px;
+    width: 960px;
+}
+
+.right-hand {
+  display: flex;
+  max-width: 800px;
+  float: right;
+  justify-content: space-between;
+  /* background-color: grey; */
+}
+
+.recommendation{
+  display: flex;
+  max-width: 800px;
+}
+
+.view-info {
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.preview{
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.timestamp{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: black;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 5%;
+}
+
+.info-title{
+  font-weight: bold;
+  font-size: 28px;
+}
+
+#rec-1{
+
+}
